@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Snail Trails</title>
+    <title>Posts on Snail Trails</title>
     <link>//192.168.86.49:1313/posts/</link>
-    <description>Recent content on Snail Trails</description>
+    <description>Recent content in Posts on Snail Trails</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 08 Jan 2026 09:22:00 +0000</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>//192.168.86.49:1313/posts/tech3/</link>
       <pubDate>Thu, 08 Jan 2026 09:22:00 +0000</pubDate>
       <guid>//192.168.86.49:1313/posts/tech3/</guid>
-      <description>&lt;p&gt;Deploying to Cloudflare&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;deploying-to-cloudflare&#34;&gt;Deploying to Cloudflare&lt;/h1&gt;&#xA;&lt;p&gt;Remarkably simple!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create Cloudflare Account&lt;/li&gt;&#xA;&lt;li&gt;Connect to Github and select rep&lt;/li&gt;&#xA;&lt;li&gt;Set Cloudflare Build Settings&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Framework preset&lt;/strong&gt;: Hugo&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build command&lt;/strong&gt;: hugo -b $CF_PAGES_URL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Output directory&lt;/strong&gt;: public&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Click Deploy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;And that&amp;rsquo;s it!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Technicals - part 2</title>
