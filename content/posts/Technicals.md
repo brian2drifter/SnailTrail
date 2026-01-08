@@ -2,7 +2,7 @@
 tags: [tech]
 date: '2026-01-02T09:22:00Z'
 title: Technicals
-featured_image: '/shared/technicals.png'
+featured_image: '/images/technicals.png'
 ---
 
 A quick description of how this blog is set up, and how to create posts from an Android phone. 

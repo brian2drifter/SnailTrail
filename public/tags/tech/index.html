@@ -37,20 +37,20 @@
     
 
     
-      <link rel="canonical" href="//100.82.198.6:1313/tags/tech/">
+      <link rel="canonical" href="//192.168.86.49:1313/tags/tech/">
     
 
     
     
-    <meta property="og:url" content="//100.82.198.6:1313/tags/tech/">
+    <meta property="og:url" content="//192.168.86.49:1313/tags/tech/">
   <meta property="og:site_name" content="Snail Trails">
   <meta property="og:title" content="Tech">
   <meta property="og:locale" content="en_gb">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Tech">
-  <meta itemprop="datePublished" content="2026-01-02T09:22:00+00:00">
-  <meta itemprop="dateModified" content="2026-01-02T09:22:00+00:00">
+  <meta itemprop="datePublished" content="2026-01-08T09:22:00+00:00">
+  <meta itemprop="dateModified" content="2026-01-08T09:22:00+00:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tech">
 
@@ -99,16 +99,14 @@
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Snail Trails</span>
     <h1 class="f3 near-black">
-      <a href="/technicals/" class="link black dim">
-        Technicals
+      <a href="/posts/tech3/" class="link black dim">
+        Technicals #3
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>A quick description of how this blog is set up, and how to create posts from an Android phone.</p>
-<p>The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location</p>
-<p>The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.</p>
+      <p>Deploying to Cloudflare</p>
     </div>
-    <a href="/technicals/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+    <a href="/posts/tech3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
@@ -119,7 +117,7 @@
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Snail Trails</span>
     <h1 class="f3 near-black">
-      <a href="/moretech/" class="link black dim">
+      <a href="/posts/moretech/" class="link black dim">
         Technicals - part 2
       </a>
     </h1>
@@ -127,7 +125,27 @@
       <p>Some follow ups</p>
 <p>Is it a good thing running the Hugo blog as root? It is inside an unprivileged container - but still? Anyway it&rsquo;s a simple mater to create a hugo user, add it to sudoers and then go back to the PVE and change the uid and gid of the NAS mount points so that they are now owned by user hugo. Then the blog, copied to the hugo home folder and chown&rsquo;d appropriately should just work</p>
     </div>
-    <a href="/moretech/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+    <a href="/posts/moretech/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Snail Trails</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/technicals/" class="link black dim">
+        Technicals
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>A quick description of how this blog is set up, and how to create posts from an Android phone.</p>
+<p>The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location</p>
+<p>The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.</p>
+    </div>
+    <a href="/posts/technicals/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
@@ -139,7 +157,7 @@
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//100.82.198.6:1313/" >
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//192.168.86.49:1313/" >
     &copy;  Snail Trails 2026 
   </a>
     <div><div class="ananke-socials"></div>

@@ -1,8 +1,8 @@
 ---
 tags: [tech]
-date: '2026-01-02T09:22:00Z'
+date: '2026-01-03T09:22:00Z'
 title: 'Technicals - part 2'
-featured_image: '/shared/technicals.png'
+featured_image: '/images/technicals.png'
 ---
 
 Some follow ups

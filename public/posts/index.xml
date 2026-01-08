@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snail Trails</title>
-    <link>//100.82.198.6:1313/posts/</link>
+    <link>//192.168.86.49:1313/posts/</link>
     <description>Recent content on Snail Trails</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 02 Jan 2026 09:22:00 +0000</lastBuildDate>
-    <atom:link href="//100.82.198.6:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jan 2026 09:22:00 +0000</lastBuildDate>
+    <atom:link href="//192.168.86.49:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Technicals</title>
-      <link>//100.82.198.6:1313/posts/technicals/</link>
-      <pubDate>Fri, 02 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//100.82.198.6:1313/posts/technicals/</guid>
-      <description>&lt;p&gt;A quick description of how this blog is set up, and how to create posts from an Android phone.&lt;/p&gt;&#xA;&lt;p&gt;The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location&lt;/p&gt;&#xA;&lt;p&gt;The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.&lt;/p&gt;</description>
+      <title>Technicals #3</title>
+      <link>//192.168.86.49:1313/posts/tech3/</link>
+      <pubDate>Thu, 08 Jan 2026 09:22:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/posts/tech3/</guid>
+      <description>&lt;p&gt;Deploying to Cloudflare&lt;/p&gt;</description>
     </item>
     <item>
       <title>Technicals - part 2</title>
-      <link>//100.82.198.6:1313/posts/moretech/</link>
-      <pubDate>Fri, 02 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//100.82.198.6:1313/posts/moretech/</guid>
+      <link>//192.168.86.49:1313/posts/moretech/</link>
+      <pubDate>Sat, 03 Jan 2026 09:22:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/posts/moretech/</guid>
       <description>&lt;p&gt;Some follow ups&lt;/p&gt;&#xA;&lt;p&gt;Is it a good thing running the Hugo blog as root? It is inside an unprivileged container - but still? Anyway it&amp;rsquo;s a simple mater to create a hugo user, add it to sudoers and then go back to the PVE and change the uid and gid of the NAS mount points so that they are now owned by user hugo. Then the blog, copied to the hugo home folder and chown&amp;rsquo;d appropriately should just work&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technicals</title>
+      <link>//192.168.86.49:1313/posts/technicals/</link>
+      <pubDate>Fri, 02 Jan 2026 09:22:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/posts/technicals/</guid>
+      <description>&lt;p&gt;A quick description of how this blog is set up, and how to create posts from an Android phone.&lt;/p&gt;&#xA;&lt;p&gt;The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location&lt;/p&gt;&#xA;&lt;p&gt;The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
