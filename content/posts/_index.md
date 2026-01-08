@@ -1,4 +1,4 @@
 ---
 title: "Snail Trails"
-featured_image: '/images/technicals.png'
+featured_image: '/images/roma.png'
 ---
