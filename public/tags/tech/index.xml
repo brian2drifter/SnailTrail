@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on Snail Trails</title>
+    <title>Tech on SnailTrail</title>
     <link>//192.168.86.49:1313/tags/tech/</link>
-    <description>Recent content in Tech on Snail Trails</description>
+    <description>Recent content in Tech on SnailTrail</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 08 Jan 2026 09:22:00 +0000</lastBuildDate>
     <atom:link href="//192.168.86.49:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Technicals #3</title>
-      <link>//192.168.86.49:1313/posts/tech3/</link>
-      <pubDate>Thu, 08 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//192.168.86.49:1313/posts/tech3/</guid>
-      <description>&lt;h1 id=&#34;deploying-to-cloudflare&#34;&gt;Deploying to Cloudflare&lt;/h1&gt;&#xA;&lt;p&gt;Remarkably simple!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create Cloudflare Account&lt;/li&gt;&#xA;&lt;li&gt;Connect to Github and select rep&lt;/li&gt;&#xA;&lt;li&gt;Set Cloudflare Build Settings&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Framework preset&lt;/strong&gt;: Hugo&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build command&lt;/strong&gt;: hugo -b $CF_PAGES_URL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Output directory&lt;/strong&gt;: public&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Click Deploy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;And that&amp;rsquo;s it!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Technicals - part 2</title>
-      <link>//192.168.86.49:1313/posts/moretech/</link>
-      <pubDate>Sat, 03 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//192.168.86.49:1313/posts/moretech/</guid>
-      <description>&lt;p&gt;Some follow ups&lt;/p&gt;&#xA;&lt;p&gt;Is it a good thing running the Hugo blog as root? It is inside an unprivileged container - but still? Anyway it&amp;rsquo;s a simple mater to create a hugo user, add it to sudoers and then go back to the PVE and change the uid and gid of the NAS mount points so that they are now owned by user hugo. Then the blog, copied to the hugo home folder and chown&amp;rsquo;d appropriately should just work&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Technicals</title>
-      <link>//192.168.86.49:1313/posts/technicals/</link>
-      <pubDate>Fri, 02 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//192.168.86.49:1313/posts/technicals/</guid>
-      <description>&lt;p&gt;A quick description of how this blog is set up, and how to create posts from an Android phone.&lt;/p&gt;&#xA;&lt;p&gt;The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location&lt;/p&gt;&#xA;&lt;p&gt;The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

@@ -1,131 +1,221 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     
-    <title>Technicals | Snail Trails</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="A quick description of how this blog is set up, and how to create posts from an Android phone.
-The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location
-The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.">
-    <meta name="generator" content="Hugo 0.153.3">
+    <meta property="og:site_name" content="SnailTrail">
+    <meta property="og:type" content="article">
+
     
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
+    <meta property="og:image" content="//192.168.86.49:1313/images/technicals.png">
+    <meta property="twitter:image" content="//192.168.86.49:1313/images/technicals.png" />
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
-
-
-
-
-    
-
-
-    
-      
-
+    <meta name="title" content="Hugo" />
+    <meta property="og:title" content="Hugo" />
+    <meta property="twitter:title" content="Hugo" />
     
 
     
+    <meta name="description" content="Random wanderings of BrianTheSnail">
+    <meta property="og:description" content="Random wanderings of BrianTheSnail" />
+    <meta property="twitter:description" content="Random wanderings of BrianTheSnail" />
+    
+
+    <meta property="og:url" content="//192.168.86.49:1313/posts/technicals/" />
 
     
-      <link rel="canonical" href="//192.168.86.49:1313/posts/technicals/">
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="Romahome, Campervan">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Hugo | Snailtrail</title>
+
+    <link rel="canonical" href="/posts/technicals/">
+
     
 
     
-    
-    <meta property="og:url" content="//192.168.86.49:1313/posts/technicals/">
-  <meta property="og:site_name" content="Snail Trails">
-  <meta property="og:title" content="Technicals">
-  <meta property="og:description" content="A quick description of how this blog is set up, and how to create posts from an Android phone.
-The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location
-The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.">
-  <meta property="og:locale" content="en_gb">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-01-02T09:22:00+00:00">
-    <meta property="article:modified_time" content="2026-01-02T09:22:00+00:00">
-    <meta property="article:tag" content="Tech">
-
-  <meta itemprop="name" content="Technicals">
-  <meta itemprop="description" content="A quick description of how this blog is set up, and how to create posts from an Android phone.
-The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location
-The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.">
-  <meta itemprop="datePublished" content="2026-01-02T09:22:00+00:00">
-  <meta itemprop="dateModified" content="2026-01-02T09:22:00+00:00">
-  <meta itemprop="wordCount" content="412">
-  <meta itemprop="keywords" content="Tech">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Technicals">
-  <meta name="twitter:description" content="A quick description of how this blog is set up, and how to create posts from an Android phone.
-The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location
-The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.">
-
-	
-  </head><body class="ma0 avenir bg-near-white development">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     
-   
-  
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
 
-  
-  
-  
-  <header class="cover bg-center" style="background-image: url('//192.168.86.49:1313/images/technicals.png');">
-    <div class="bg-black-60">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        Snail Trails
-      
-    </a>
-    <div class="flex-l items-center">
-      
+    
+    <link rel="stylesheet" href="/css/zanshang.min.css">
 
-      
-      <div class="ananke-socials"></div>
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
 
+    
+    
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">SnailTrail</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/2026/">2026</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/bus/">bus</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/tech/">tech</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/wales/">wales</a>
+                        </li>
+                        
+                    
+                    
+		    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
     </div>
-  </div>
+    
 </nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
 
-      <div class="tc-l pv6 ph3 ph4-ns">
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
         
-          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Technicals</div>
-          
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
         
-      </div>
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/images/technicals.png')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Hugo</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Brian
+                             
+                            on 
+                            Thursday, January 15, 2026
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
-  </header>
+</header>
 
 
 
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">Technicals</h1>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2026-01-02T09:22:00Z">January 2, 2026</time>
-      
 
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p>A quick description of how this blog is set up, and how to create posts from an Android phone.</p>
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>A quick description of how this blog is set up, and how to create posts from an Android phone.</p>
 <p>The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location</p>
 <p>The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.</p>
 <p>Creating posts is then a simple matter of creating markdown files on a shared drive in the NAS (along with adding any linked resources, such as photographs, into the partner static content shared folder). On a PC VSCode is excellent for editing markdown (and many other formats) on a remote device.</p>
@@ -133,29 +223,152 @@ The Hugo markdown files in the LXC containers are themselves simply a mount from
 <p>The sharing is simplified by the use of Tailscale to connect all the devices involved (LXC, NAS, PC, Android phone) to a personal VPN thus allowing access to all resources event when not on the home network.</p>
 <p>One final party of the story, it is necessary to compile the static pages of the blog from the Android also. Using Termux makes this simple. Tailscale allows for SSH into the LXC from outside the home network, so the &lsquo;Hugo Server&rsquo; command can simply be run.</p>
 <p>So, bottom line, on the Android, use Markor to create a markdown blog post. Save it locally and share to the NAS shared folder using DS File, ditto any photos etc required. This then appears in the LXC&rsquo;s Hugo/content folder courtesy of that folder being an SMB mount of the NAS share. Then using Termux on Android SSH into the LXC container and regenerate the blog pages using the normal Hugo command</p>
-<ul class="pa0">
-  
-   <li class="list di">
-     <a href="/tags/tech/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Tech</a>
-   </li>
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
-    </div></article>
 
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//192.168.86.49:1313/" >
-    &copy;  Snail Trails 2026 
-  </a>
-    <div><div class="ananke-socials"></div>
-</div>
-  </div>
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/posts/about/hello/" data-toggle="tooltip" data-placement="top" title="Welcome to SnailTrail">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/posts/moretech/" data-toggle="tooltip" data-placement="top" title="Hugo 2">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+
+            </div>
+
+            
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; SnailTrail 2026
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
 </footer>
 
-  </body>
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 </html>

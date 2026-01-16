@@ -1,33 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Snail Trails</title>
+    <title>SnailTrail</title>
     <link>//192.168.86.49:1313/</link>
-    <description>Recent content on Snail Trails</description>
+    <description>Recent content on SnailTrail</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 08 Jan 2026 09:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 16:45:00 +0000</lastBuildDate>
     <atom:link href="//192.168.86.49:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Technicals #3</title>
-      <link>//192.168.86.49:1313/posts/tech3/</link>
-      <pubDate>Thu, 08 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//192.168.86.49:1313/posts/tech3/</guid>
-      <description>&lt;h1 id=&#34;deploying-to-cloudflare&#34;&gt;Deploying to Cloudflare&lt;/h1&gt;&#xA;&lt;p&gt;Remarkably simple!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create Cloudflare Account&lt;/li&gt;&#xA;&lt;li&gt;Connect to Github and select rep&lt;/li&gt;&#xA;&lt;li&gt;Set Cloudflare Build Settings&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Framework preset&lt;/strong&gt;: Hugo&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build command&lt;/strong&gt;: hugo -b $CF_PAGES_URL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Output directory&lt;/strong&gt;: public&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Click Deploy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;And that&amp;rsquo;s it!&lt;/p&gt;</description>
+      <title>Wales Obscura</title>
+      <link>//192.168.86.49:1313/post/wales/obscura/</link>
+      <pubDate>Thu, 15 Jan 2026 16:45:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/wales/obscura/</guid>
+      <description>&lt;p&gt;OK, first port of call for any adventure is always &lt;a href=&#34;https://www.atlasobscura.com/&#34;&gt;Atlas Obscura&lt;/a&gt; so let&amp;rsquo;s pull out some of the things that might be interesting &amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Technicals - part 2</title>
-      <link>//192.168.86.49:1313/posts/moretech/</link>
-      <pubDate>Sat, 03 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//192.168.86.49:1313/posts/moretech/</guid>
+      <title>Wales - Plan B!</title>
+      <link>//192.168.86.49:1313/post/wales/intro/</link>
+      <pubDate>Thu, 15 Jan 2026 16:40:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/wales/intro/</guid>
+      <description>&lt;p&gt;So, if we are not going to bus around the perimeter of England, where shall we go? We have been active members of the &lt;a href=&#34;https://community.smallmotorhome.co.uk/&#34;&gt;Small Motorhome Community&lt;/a&gt; for years and they are having a twentieth anniversary meet in Teversal near Nottingham in April and one of the more northerly members Gregor is hosting a met up in the borders at Melrose afterwards. So an obvious choice might be to join friends at  both of those and on into  Scotland. But we&amp;rsquo;ve toured Scotland and  the Islands a few times now, so another option would be to head over to Stranraer after Melrose and tour the Emerald Isle again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Itinerary</title>
+      <link>//192.168.86.49:1313/post/busabout/itinerary/</link>
+      <pubDate>Thu, 15 Jan 2026 16:04:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/busabout/itinerary/</guid>
+      <description>&lt;h3 id=&#34;round-englands-coast-by-bus&#34;&gt;Round England&amp;rsquo;s Coast by Bus&lt;/h3&gt;&#xA;&lt;p&gt;What follows is an attempt to see if a complete circumnavigation of England by bus is actually even possible!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; Timetables listed were downloaded in Jan 2026 and will not only likely be out-of-date but also not include summer-only tourist buses&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Britain by bus - Intro</title>
+      <link>//192.168.86.49:1313/post/busabout/intro/</link>
+      <pubDate>Thu, 15 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/busabout/intro/</guid>
+      <description>&lt;p&gt;Readers of our &lt;a href=&#34;https://busabout.two-drifters.co.uk&#34;&gt;Busabout blog&lt;/a&gt; will know that in 2000, literally days before&#xA;Covid clamped the country down Liz and I travelled the length of the country from  Southampton to Carlisle and then over the border to Gretna using our pensioner&amp;rsquo;s concessionary bus pass. Over 450  miles of free travels (and not so free hotels!). Sadly a pressing appointment meant  train rather than buses back home, but a good thing perhaps with Covid just starting to become rife.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo 2</title>
+      <link>//192.168.86.49:1313/post/tech/tech2/</link>
+      <pubDate>Thu, 15 Jan 2026 12:40:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/tech/tech2/</guid>
       <description>&lt;p&gt;Some follow ups&lt;/p&gt;&#xA;&lt;p&gt;Is it a good thing running the Hugo blog as root? It is inside an unprivileged container - but still? Anyway it&amp;rsquo;s a simple mater to create a hugo user, add it to sudoers and then go back to the PVE and change the uid and gid of the NAS mount points so that they are now owned by user hugo. Then the blog, copied to the hugo home folder and chown&amp;rsquo;d appropriately should just work&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Technicals</title>
-      <link>//192.168.86.49:1313/posts/technicals/</link>
-      <pubDate>Fri, 02 Jan 2026 09:22:00 +0000</pubDate>
-      <guid>//192.168.86.49:1313/posts/technicals/</guid>
+      <title>Hugo 3</title>
+      <link>//192.168.86.49:1313/post/tech/tech3/</link>
+      <pubDate>Thu, 15 Jan 2026 12:40:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/tech/tech3/</guid>
+      <description>&lt;h1 id=&#34;deploying-to-cloudflare&#34;&gt;Deploying to Cloudflare&lt;/h1&gt;&#xA;&lt;p&gt;Remarkably simple!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create Cloudflare Account&lt;/li&gt;&#xA;&lt;li&gt;Connect to Github and select rep&lt;/li&gt;&#xA;&lt;li&gt;Set Cloudflare Build Settings&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Framework preset&lt;/strong&gt;: Hugo&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build command&lt;/strong&gt;: hugo -b $CF_PAGES_URL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Output directory&lt;/strong&gt;: public&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Click Deploy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;And that&amp;rsquo;s it!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>//192.168.86.49:1313/post/tech/technicals/</link>
+      <pubDate>Thu, 15 Jan 2026 12:39:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/tech/technicals/</guid>
       <description>&lt;p&gt;A quick description of how this blog is set up, and how to create posts from an Android phone.&lt;/p&gt;&#xA;&lt;p&gt;The blog is a simple set of pages, generated from local markdown files using the Hugo static site generator. Hugo is running on a small LXC container inside a Proxmox PVE on a little 5th generation i5 NUC running at my home location&lt;/p&gt;&#xA;&lt;p&gt;The Hugo markdown files in the LXC containers are themselves simply a mount from a shared folder on my Synology NAS (sitting right next to that little i5 NUC). So basically any markdown files created or copied into that NAS shared folder will be a post for my blog when the Hugo site is compiled. There is a similar folder for static resources such as pictures to be included in the blog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to SnailTrail</title>
+      <link>//192.168.86.49:1313/post/about/hello/</link>
+      <pubDate>Thu, 15 Jan 2026 12:39:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/post/about/hello/</guid>
+      <description>&lt;h5 id=&#34;a-new-blog-for-2026&#34;&gt;A New Blog for 2026&lt;/h5&gt;&#xA;&lt;p&gt;Sorry, not a post about travels, adventures, and tails of derring-do but reset and explanation (sorry if it gets a bit techy) as to why this is now a new blog.&lt;/p&gt;&#xA;&lt;p&gt;For some years I have documented the ramblings of BrianTheSnail (our beloved Romahome R20) on my &lt;a href=&#34;https://travels.two-drifters.co.uk&#34;&gt;Travels site&lt;/a&gt; with Liz doing the same on &lt;a href=&#34;https://liz.two-drifters.co.uk&#34;&gt;her site&lt;/a&gt;&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

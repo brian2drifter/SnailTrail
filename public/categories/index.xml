@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Snail Trails</title>
+    <title>Categories on SnailTrail</title>
     <link>//192.168.86.49:1313/categories/</link>
-    <description>Recent content in Categories on Snail Trails</description>
+    <description>Recent content in Categories on SnailTrail</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
+    <lastBuildDate>Thu, 15 Jan 2026 16:45:00 +0000</lastBuildDate>
     <atom:link href="//192.168.86.49:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wales</title>
+      <link>//192.168.86.49:1313/categories/wales/</link>
+      <pubDate>Thu, 15 Jan 2026 16:45:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/categories/wales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bus</title>
+      <link>//192.168.86.49:1313/categories/bus/</link>
+      <pubDate>Thu, 15 Jan 2026 16:04:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/categories/bus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>//192.168.86.49:1313/categories/tech/</link>
+      <pubDate>Thu, 15 Jan 2026 12:40:00 +0000</pubDate>
+      <guid>//192.168.86.49:1313/categories/tech/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
