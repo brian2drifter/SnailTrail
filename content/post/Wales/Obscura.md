@@ -31,3 +31,5 @@ OK, first port of call for any adventure is always [Atlas Obscura](https://www.a
 * [Quay House, The Smallest House in Great Britain](https://www.atlasobscura.com/places/quay-house-the-smallest-house-in-great-britain) *Conwy*
 * [**Constitution Hill**](https://www.atlasobscura.com/places/constitution-hill) *Aberystwyth*
 * [**Great Orme Tramway**](https://www.atlasobscura.com/places/great-orme-tramway) *Llandudno*
+
+  Well this all sort of got abandond in the prep for the holiday but here's a [** Google Map**](https://www.google.com/maps/d/edit?mid=1QWCvuFVBL3gXjjWVU2sTTX3OhlZfj8k&ll=52.37849363303396%2C-2.898875450000013&z=8)
