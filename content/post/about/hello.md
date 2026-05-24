@@ -19,4 +19,4 @@ So here we are, 2026, a new year, a new blog! This one is hosted externally by C
 
 Anyway - I'll probably take the laptop - but still it's good to have **a)** the blog backed up to github, and **b)** removing the dependency on my server always having to be up when away from home (power cuts do happen!)
 
-Right let's add a test bit to this to see if I can update from Android and whether a Hugo/Mgit/Markor workflow works
+Right let's add a test bit to this to see if I can update from Android and whether a Hugo/Mgit/Markor workflow works. And it does but now I've had to redo it because by default Mgit clones to a folder structure which only it has access to. Fine for editing within Mgit but not so good for uploading photos
