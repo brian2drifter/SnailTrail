@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing from iPad
-date: 2026-06–13T22:40:00Z
+date: 2026-06-13T22:40:00Z
 author: Brian
 image: images/technicals.png
 categories:
