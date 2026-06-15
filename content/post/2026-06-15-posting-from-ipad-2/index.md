@@ -7,7 +7,6 @@ slug: "posting-from-ipad-2”
 layout:post
 draft: false
 author:     Brian
-image:      "images/technicals.png"
 categories: [Tech]
 ---
 
