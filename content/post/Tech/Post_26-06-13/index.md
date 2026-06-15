@@ -14,4 +14,4 @@ Let’s add a picture
 ![Alternative Text for Accessibility](my-picture.jpeg)
 
 
-Now let’s see if this old Bluetooth keyboard works.
+Now let’s see if this old Bluetooth keyboard works. OK it does. Now let’s test if the new Obsidian folder structure is working.
