@@ -9,7 +9,11 @@ image:  "images/technicals.png"
 categories:
   - Tech
 ---
-New test using a-shell rather than Working. Have I solved the branch error?No, apparently not - let’s try again. Explicitly maiming the ref specs on the push worked, let’s see it it has set it permanently. Looks like it is fixed so let’s confirm.
+
+
+5Testing, and again
+
+New test using a-shell rather than Working. Have I solved the branch error?No, apparently not - let’s try again. Explicitly maiming the ref specs on the push worked, let’s see it it has set it permanently. Looks like it is fixed so let’s confirm. 
 
 
 This post will document how to set up the community plugin QuickAdd within Obsidian in order to generate a new folder with a blank index.md file ready for a new post. The index file will have correctly generated Date and Title fields along with the rest of the required default YAML front-matter.

@@ -1,9 +1,6 @@
-#!/bin/zsh
-
-lg2 add -A
-
+#!/bin/sh
+lg2 add .
 lg2 commit -m "$1"
-
 if lg2 push origin HEAD:refs/heads/main
 then
     echo "SUCCESS"
