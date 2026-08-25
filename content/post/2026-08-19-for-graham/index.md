@@ -26,9 +26,12 @@ Stockton Cris was 5 miles up the road, Wye Valley HPA and Butty Bach were well k
 ### Day 2 Monday
 Liz wants to see Ludlow castle. And we both want to see St Laurence’s Church which is supposed to be very interesting. Other places of much interest are Smithfield Car park, where, for a pittance, camper vans can overnight. It’s not on our agenda this trip, but for future reference. We’ve visited the brewery previously and despite its obvious draw I’m driving. So we’ll leave that for another day - perhaps combined with a car park overnighted.
 
-Car park first - mainly because it had to come first, without it we couldn’t visit the town! Anyway it was s impressive - fees are 40p an hour flat per hour so a maximum 8 hour stay would set up back £3.20 - in Eastleigh that would buy you barely enough time to nip out and collect a bag of chips! But paying by cards I noticed that after the minimum 40p first hour, future increments could be by the 1/4 hour (10p). What a sensible system. And the overnight bays are a bit close but would suffice.
+Car park first - mainly because it had to come first, without it we couldn’t visit the town! Anyway it was s impressive - fees are 40p an hour flat per hour so a maximum 8 hour stay would set up back £3.20 - in Eastleigh that would buy you barely enough time to nip out and collect a bag of chips! But paying by cards I noticed that after the minimum 40p first hour, future increments could be by the 1/4 hour (10p). What a sensible system. And the overnight bays are a bit close but would suffice
 
-![](StLaurenceWindow.jpeg)
+![](StLaurenceWindow.jpeg){ width=30% }
+
+
+
 ### Day 3 Tuesday
 
 On to Worcester, a huge Roman city in Shropshire. The campsite is a simple field with stand-pipe for water and a WC sited over a chess-pit for chemical toilet waste. Simple camping. What’s more, it’s in the middle of nowhere. The village has a handful of houses, a wedding venue hotel and no pub or shop. Oh, it does also have a (no longer used) Saxon church and a huge Roman city, much of it underneath today’s farmsteads
